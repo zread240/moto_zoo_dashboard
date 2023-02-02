@@ -9,14 +9,16 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .nav-bar {
     display: flex;
+    flex-wrap: wrap;
     color: #ff0000;
     background-color: black;
     padding: 20px 0px 20px 100px;
-    align-items: center;
+    justify-content: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 35px;
 }
@@ -29,8 +31,10 @@ body {
 
 .header-link {
     display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
     margin-left: auto;
-    padding: 0px 100px 0px 0px;
+    padding: 0px 50px 0px 0px;
 }
 
 .header-link a {
@@ -40,6 +44,13 @@ body {
 }
 
 .oem {
+    display: flex;
+    gap: 2rem;
+
     color: #ff0000;
-    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    color: #ff0000;
 }
