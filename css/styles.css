@@ -3,54 +3,6 @@ body {
     padding: 0;
     margin: 0;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.nav-bar {
-    display: flex;
-    flex-wrap: wrap;
-    color: #ff0000;
-    background-color: black;
-    padding: 20px 0px 20px 100px;
-    justify-content: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 35px;
-}
-
-.header-logo {
-    display: flex;
-    align-items: center;
-
-}
-
-.header-link {
-    display: flex;
-    flex-wrap: wrap;
-    flex-shrink: 1;
-    margin-left: auto;
-    padding: 0px 50px 0px 0px;
-}
-
-.header-link a {
-    text-decoration: none;
-    color: #ff0000;
-    padding: 20px 20px 10px 0px;
-}
-
-.oem {
-    display: flex;
-    gap: 2rem;
-
-    color: #ff0000;
-    justify-content: center;
-}
-
-.card {
-    color: #ff0000;
-}
